@@ -1,0 +1,20 @@
+{
+  "debug": false,
+  "domain": null,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": "public",
+  "preprocessorScriptOutput": "public/javascripts",
+  "preprocessorStyleOutput": "public/stylesheets",
+  "projectDescription": "It's Good Practice prototyping boilerplate built on Mixture.io, Compass, SASS, Modular Scale, and Gridset",
+  "projectName": "Mixture Prototyping Boilerplate",
+  "publishedId": null,
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModePartnerServer": null,
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "mixture",
+  "useCompass": true
+}
