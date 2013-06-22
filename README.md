@@ -13,4 +13,4 @@ Get up and running quickly with this prototyping boilerplate constructed around 
 
 ## JavaScript Libraries
 
-# [QuoJS](http://quojs.tapquo.com) - Is a micro, modular, Object-Oriented and concise JavaScript Library that simplifies HTML document traversing, event handling, and Ajax interactions for rapid mobile web development. It allows you to write powerful, flexible and cross-browser code with its elegant, well documented and micro coherent API.
+[QuoJS](http://quojs.tapquo.com) - Is a micro, modular, Object-Oriented and concise JavaScript Library that simplifies HTML document traversing, event handling, and Ajax interactions for rapid mobile web development. It allows you to write powerful, flexible and cross-browser code with its elegant, well documented and micro coherent API.
