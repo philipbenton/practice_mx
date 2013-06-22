@@ -1,1 +1,5 @@
+# Mac OS X files
+*.DS_Store
+
+# SASS & Compass files
 .sass-cache
