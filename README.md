@@ -3,13 +3,17 @@ Mixture Prototyping Boilerplate
 
 Get up and running quickly with this prototyping boilerplate constructed around [Mixture](http://docs.mixture.io). Easily export your finished prototype with Mixture, ready for integration with your Content Publishing Platform.
 
-## Browser support
+## Browser Support
 
 * Google Chrome
 * Mozilla Firefox 4+
 * Apple Safari 5+
 * Opera 12+
 * Internet Explorer 8+
+
+## Browser Testing
+
+[BrowserStack](http://www.browserstack.com) - Live, Web-Based Browser Testing.
 
 ## JavaScript Libraries
 
