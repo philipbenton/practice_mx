@@ -2,7 +2,7 @@
 
 # We also support plugins and frameworks, please read the docs http://docs.mixture.io/preprocessors#compass
 
-project_path    = "/Users/philipbenton/Dropbox/Projects/Mixture Prototyping Boilerplate/"
+project_path    = "/Users/philipbenton/Dropbox/_codebase/Prototyping/Mixture Prototyping Boilerplate/"
 
 # Important! change the paths below to match your project setup. Set to the root of your project when deployed.
 css_dir         = "public/stylesheets"
