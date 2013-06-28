@@ -1,3 +1,19 @@
 {
-  
+  "people": [
+    {
+      "name": "It's Good Practice",
+      "twitter": "@itsgoodpractice"
+    }
+  ],
+  "libraries": [
+    {
+      "gridset": [
+        {
+          "useGridset": "true",
+          "localFiles": "true",
+          "gridId": "9357"
+        }
+      ]
+    }
+  ]
 }
