@@ -10,6 +10,7 @@
       "gridset": [
         {
           "useGridset": "true",
+          "useGridsetSCSS": "true",
           "localFiles": "true",
           "gridId": "9357"
         }
