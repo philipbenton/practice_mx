@@ -30,3 +30,9 @@ Get up and running quickly with this prototyping boilerplate constructed around 
 ## CSS & SASS
 
 [Normalize.css](https://github.com/philipbenton/normalize.css) 2.1.2 - A modern, HTML5-ready alternative to CSS reset.
+
+[Gridset.scss](http://gridsetapp.com) - Gridset is a tool for making grids. Included is a default set of grids, update to use your own grid.
+
+## Typography
+
+[TypeKit](http://typekit.com) - 
