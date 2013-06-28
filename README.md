@@ -1,7 +1,7 @@
 Mixture Prototyping Boilerplate
 ===============================
 
-Get up and running quickly with this prototyping boilerplate constructed around Mixture.io. Easily export your finished prototype with Mixture, ready for integration with your Content Publishing Platform.
+Get up and running quickly with this prototyping boilerplate constructed around [Mixture](http://docs.mixture.io). Easily export your finished prototype with Mixture, ready for integration with your Content Publishing Platform.
 
 ## Browser support
 
