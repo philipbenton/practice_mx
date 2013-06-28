@@ -19,6 +19,10 @@ Get up and running quickly with this prototyping boilerplate constructed around 
 
 [QuoJS](http://quojs.tapquo.com) - Is a micro, modular, Object-Oriented and concise JavaScript Library that simplifies HTML document traversing, event handling, and Ajax interactions for rapid mobile web development. It allows you to write powerful, flexible and cross-browser code with its elegant, well documented and micro coherent API.
 
+[fitVids](http://fitvidsjs.com) 1.0 - A lightweight, easy-to-use jQuery plugin for fluid width video embeds.
+
+[scrollToFixed](https://github.com/bigspotteddog/ScrollToFixed) - A jQuery plugin used to fix elements on the page (top, bottom, anywhere); however, it still allows the element to continue to move left or right with the horizontal scroll.
+
 ## CSS & SASS
 
 [Normalize.css](https://github.com/philipbenton/normalize.css) 2.1.2 - A modern, HTML5-ready alternative to CSS reset.
