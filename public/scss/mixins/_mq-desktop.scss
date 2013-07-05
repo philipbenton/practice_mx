@@ -1,7 +1,0 @@
-// Set this to the desktop device size you are targeting.
-
-@mixin mq-desktop {
-  @media only screen and (min-width:1024px) {
-    @content
-  }
-}

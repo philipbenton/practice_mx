@@ -1,7 +1,0 @@
-// Set this to the tablet device size you are targeting.
-
-@mixin mq-tablet {
-  @media only screen and (min-width:768px) and (max-width:1023px) {
-    @content
-  }  
-}
