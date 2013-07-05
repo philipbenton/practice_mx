@@ -33,6 +33,8 @@ Get up and running quickly with this prototyping boilerplate constructed around 
 
 [Gridset.scss](http://gridsetapp.com) - Gridset is a tool for making grids. Included is a default set of grids, update to use your own grid.
 
+[Typeplate.scss](http://typeplate.com) - Typeplate is a “typographic starter kit”. We don’t make aesthetic design choices, but define proper markup with extensible styling for common typographic patterns.
+
 ## Typography
 
 [TypeKit](http://typekit.com) - 
