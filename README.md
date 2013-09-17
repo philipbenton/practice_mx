@@ -1,7 +1,7 @@
 It's Good Practice: Mixture Boilerplate
 =======================================
 
-Get up and running quickly with this front-end boilerplate constructed around [Mixture](http://docs.mixture.io). Easily export your finished front-end files with Mixture, ready for integration with your Content Publishing Platform.
+Get up and running quickly with this front-end boilerplate that harnesses the power of SASS, Compass, Gridset and more. Easily export your files with Mixture, ready for integration with your Content Publishing Platform.
 
 ## Uses
 
