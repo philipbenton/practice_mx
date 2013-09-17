@@ -1,7 +1,12 @@
-Mixture Prototyping Boilerplate
-===============================
+It's Good Practice: Mixture Boilerplate
+=======================================
 
-Get up and running quickly with this prototyping boilerplate constructed around [Mixture](http://docs.mixture.io). Easily export your finished prototype with Mixture, ready for integration with your Content Publishing Platform.
+Get up and running quickly with this front-end boilerplate constructed around [Mixture](http://docs.mixture.io). Easily export your finished front-end files with Mixture, ready for integration with your Content Publishing Platform.
+
+## Uses
+
+* Prototyping
+* Front-End Development
 
 ## Browser Support
 
