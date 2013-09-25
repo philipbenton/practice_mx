@@ -16,5 +16,15 @@
   "templateDefaultPage": "index",
   "templateDirectory": "templates",
   "type": "mixture",
-  "useCompass": true
+  "useCompass": true,
+  "customTodos": [
+    {
+      "fileTypes": "php",
+      "regex": "(?<=/[*] TODO:).*?(?=[*]/)"
+    },
+    {
+      "fileTypes": "html,php",
+      "regex": "(?<=<!-- TODO:).*?(?=-->)"
+    }
+  ]
 }
