@@ -1,0 +1,51 @@
+/**
+ * Media Query.
+ */
+@mixin mq($point, $IE9: false, $query1: min, $query2: width) {
+  @if $IE9 == true {
+    .lt-ie9 & {
+        @content;
+    }
+    @media screen and (#{$query1}-#{$query2}: $point / $base-font-size +em) {
+        @content;
+    }
+}
+
+@else {
+    @media screen and (#{$query1}-#{$query2}: $point / $base-font-size +em) {
+        @content;
+    }
+  }
+}
+
+
+/**
+ * Retina Media.
+ */
+@mixin mq-2x {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}
+
+
+/**
+ * Background Image.
+ */
+@mixin background-image($image, $color: #000000, $image-directory: "../images/", $position: 50% 50%, $repeat: no-repeat) {
+  background: {
+    color: $color;
+    image: url($image-directory + $image);
+    position: $position;
+    repeat: $repeat;
+  }
+}
+
+
+/**
+ * HEX to RGB.
+ */
+@mixin rgba($color, $value) {
+        background-color: $color;
+        background-color: rgba($color, $value);
+}

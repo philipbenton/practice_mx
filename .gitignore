@@ -2,7 +2,7 @@
 *.DS_Store
 
 # SASS & Compass files
-.sass-cache
+.sass-cache/
 
 # Package Icon file
 Mixture-Boilerplate-Icon.ai

@@ -1,0 +1,44 @@
+/**
+ * States.
+ */
+/* Hide from both screen readers and browsers: h5bp.com/u */
+.is-hidden {
+  display: none !important; 
+  visibility: hidden; 
+}
+
+/* Hide visually and from screen readers, but maintain layout */
+.is-invisible { visibility: hidden; }
+
+.is-visible { display: block !important; }
+
+/* Hide on screen but make available to screen readers */
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+
+/**
+ * Load Media.
+ *
+ * Displays a Spinner gif as a background image whilst media is loading.
+ */
+.load-media {
+  @include background-image("image-loading-spinner.gif");
+}
+
+
+/**
+ * Font Icons.
+ *
+ * Usage: <span aria-hidden="true" data-icon="&#x21dd;"></span>
+ * 
+ * aria-hidden will prevent the content being spoken by assistive devices. See CSS Tricks - http://css-tricks.com/html-for-icon-font-usage/
+ */
+[data-icon]:before {
+  font-family: icons;
+  content: attr(data-icon);
+  speak: none;
+}

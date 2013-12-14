@@ -1,8 +1,0 @@
-@mixin background-image($image, $color: #000000, $image-directory: "../images/", $position: 50% 50%, $repeat: no-repeat) {
-  background: {
-    color: $color;
-    image: url($image-directory + $image);
-    position: $position;
-    repeat: $repeat;
-  }
-}

@@ -3,8 +3,6 @@
 // Only using clearfix so lets call that
 @import "compass/utilities/general/clearfix";
 
-@import "functions/all-functions", "mixins/all-mixins", "variables/all-variables", "helpers/all-helpers";
+@import "normalize", "variables", "mixins", "helpers", "typography";
 
-@import "common/all-common", "libraries/all-libraries";
-
-@import "layouts/all-layouts", "modules/all-modules";
+@import "defaults";
