@@ -1,0 +1,10 @@
+// Setup Compass Variables
+ 
+
+@import "compass/support";
+
+// IE Support.
+$legacy-support-for-ie:  false;
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: false;
+$legacy-support-for-ie8: true;
