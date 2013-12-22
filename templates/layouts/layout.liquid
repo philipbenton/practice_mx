@@ -9,18 +9,12 @@
 
     {{ "styles.css" | asset_url | stylesheet_tag }}
 
-    {{ "libs/modernizr/modernizr-2.6.2.min.js" | asset_url | script_tag }}
+    <script data-main="/public/scripts/main.min.js" src="/public/scripts/require.min.js"></script>
   </head>
 
   <body class="">
 
     {% block content %}{% endblock %}
 
-    <!-- TODO: Complete this project -->
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/public/javascripts/jquery-1.10.2.min.js"><\/script>')</script>
-
-    {{ "scripts.js" | asset_url | script_tag }}
   </body>
 </html>

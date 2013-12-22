@@ -1,8 +1,9 @@
-// @import "compass";
+@import "compass";
 
-@import "compass/utilities/general/clearfix";
-@import "compass/css3";
+@import "normalize";
 
-@import "normalize", "variables", "mixins", "helpers", "typography";
+@import "variables", "functions", "mixins", "helpers";
+
+@import "typography";
 
 @import "defaults";

@@ -30,19 +30,38 @@
 }
 
 
-/**
- * Font Icons.
- *
- * Usage: <span aria-hidden="true" data-icon="&#x21dd;"></span>
- * 
- * aria-hidden will prevent the content being spoken by assistive devices. See CSS Tricks - http://css-tricks.com/html-for-icon-font-usage/
- */
-[data-icon]:before {
+
+//
+// Font Icons.
+//
+// Usage: <span aria-hidden="true" data-icon="&#x21dd;"></span>
+// 
+// aria-hidden will prevent the content being spoken by assistive devices. See CSS Tricks - http://css-tricks.com/html-for-icon-font-usage/
+//
+[data-icon]::before {
+  font-family: "icons" !important;
   content: attr(data-icon);
-  font-family: "icons";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;   /* For safety - reset parent styles, that can break glyph codes */
-  text-transform: none;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
   speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+[class^="icon__"]::before,
+[class*=" icon__"]::before {
+  font-family: "icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
 }

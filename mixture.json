@@ -4,7 +4,7 @@
   "lintScripts": false,
   "modelSource": null,
   "preprocessorLocations": "public",
-  "preprocessorScriptOutput": "public/javascripts",
+  "preprocessorScriptOutput": "public/scripts",
   "preprocessorStyleOutput": "public/stylesheets",
   "projectDescription": "It's Good Practice boilerplate built on Mixture.io, Compass, SASS, Modular Scale, Gridset and more",
   "projectName": "It's Good Practice: Mixture Boilerplate",

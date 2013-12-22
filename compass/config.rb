@@ -8,7 +8,7 @@ project_path    = File.expand_path("..",File.dirname(__FILE__))
 css_dir         = "public/stylesheets"
 sass_dir        = "public/scss"
 images_dir      = "public/images"
-javascripts_dir = "public/javascripts"
+javascripts_dir = "public/scripts"
 fonts_dir       = "public/fonts"
 svg_dir         = "public/svg"
 

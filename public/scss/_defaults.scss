@@ -5,6 +5,33 @@
   @include box-sizing(border-box);
 }
 
+html,
+body {}
+
 html {}
 
-body {}
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * Link Defaults.
+ */
+a {
+  text-decoration: none;
+
+  &:link {
+
+  }
+  &:visited {
+
+  }
+  &:hover {
+
+  }
+  &:active,
+  &:focus {
+
+  }
+}

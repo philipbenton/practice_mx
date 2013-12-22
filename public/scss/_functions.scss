@@ -1,0 +1,4 @@
+// Function used with px_rem Mixin.
+@function parseInt($n) {
+  @return $n / ($n * 0 + 1);
+}
