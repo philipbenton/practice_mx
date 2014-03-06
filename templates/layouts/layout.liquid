@@ -3,9 +3,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <title>{% block title %}Mixture Front-End Starter Kit{% endblock %}</title>
     
+    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=0, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
     <!-- Open Graph Protocol, see http://ogp.me for more information -->
     <meta property="og:title" content="" />
@@ -18,7 +23,13 @@
     <script data-main="/public/scripts/main.min.js" src="/public/scripts/require.min.js"></script>
   </head>
 
-  <body class="">
+  <body>
+
+    <!--[if lt IE 8]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser which this website <strong>does not</strong> provide support for. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
 
     {% block content %}{% endblock %}
 
